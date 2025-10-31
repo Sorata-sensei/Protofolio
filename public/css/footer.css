@@ -1,0 +1,74 @@
+footer {
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #000000;
+  color: white;
+   position: relative;
+    left: 0;
+    bottom: 0;
+  height:  100%;
+    width: 100%;
+ 
+}
+ .footer p {
+        margin: 1px 0; /* Atur margin atas dan bawah menjadi 5px */
+    }
+        .social-icons {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: -25px;
+            display: flex;
+            flex-direction: row;
+            /* Mengatur layout horizontal */
+            justify-content: center;
+            /* Memusatkan ikon secara horizontal */
+            gap: 10px;
+            /* Jarak antar ikon */
+          z-index: 999;
+            margin-bottom: 10px;
+            /* Jarak dari bawah */
+        }
+
+        .icon {
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(5px);
+          -webkit-backdrop-filter: blur(5px);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          background: rgba(255, 255, 255, 0.2);
+            /* background-color: #3766A4; */
+            /* Warna latar belakang ikon */
+            border-radius: 10px 10px 0px 0px;
+            /* Membuat ikon bulat */
+            padding: 10px;
+            /* Ruang di dalam ikon */
+            text-align: center;
+            /* Memusatkan konten */
+            width: 40px;
+            /* Lebar ikon */
+            height: 40px;
+            /* Tinggi ikon */
+            color: #000000;
+            /* Warna ikon */
+            text-decoration: none;
+            font-size: 17px;
+            /* Menghilangkan garis bawah */
+        }
+
+.icon:hover {
+           transform: scale(1.4);
+            /* Warna saat hover */
+        }
+.name-anwar{
+ color: #FE4B74;
+    font-weight: bold;
+
+}
+.link-footer{
+    color: #FE4B74;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link-footer:hover{
+  color: #fc1c50;
+}

@@ -1,0 +1,93 @@
+body {
+    background-color: #212121 !important;
+    color: #D3D3D3 !important;
+}
+.border{
+       border: 0.2em solid #E7F0FD !important;
+}
+.main-content {
+   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.popup-button {
+    
+    background: #000000; /* Biru cerah */
+    color: white;       /* Warna teks/ikon putih */
+    border: 3px solid #ffffff !important;
+}
+.nav-tabs{
+    border-bottom: #FFFFF0 !important;
+    background-color: #FFFFF0;
+      font-weight: bold;
+    --bs-nav-tabs-border-width:none !important;
+}
+.nav-link{
+    /* background-color: #FFFFF0; */
+    color:#ffffff !important;
+    font-weight: bold !important;
+}
+.navbar-nav .nav-link.active{
+ background-color:#FFFFF0 !important;
+    color:  #000000 !important;
+
+}
+.description-hero{
+    color: #E7F0FD;
+}
+.activity{
+color: #000;
+}
+.container-journal .item .title{
+    color:  #fff;
+}
+.container-journal .item .authors{
+    color:  #fff;
+}
+.container-journal .item .year{
+    color:  #fff;
+}
+.icon-bottom-profil{
+    background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.timelineli{
+    color: #000;
+}
+footer{
+    background-color: #000 !important;
+}
+.icon{
+    color: #fff !important;
+}
+.card-title{
+    color: #fff!important;
+}
+.card-body p {
+    color: #fff!important;
+}
+.modal-content{
+    background-color: #212121 !important;
+}
+.modal-header{
+      color: #fff!important;
+}
+.modal-body{
+      color: #fff!important;
+}
+.text-muted{
+      color: #fff!important;
+}
+
+.navbar-toggler{
+   background-color: #000000;
+  
+}
+@media (max-width: 990px) {
+    .navbar {
+       background: rgba(255, 255, 255, 0.2);
+
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}

@@ -1,0 +1,74 @@
+footer {
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #9381ff;
+  color: white;
+   position: relative;
+    left: 0;
+    bottom: 0;
+  height:  100%;
+    width: 100%;
+ 
+}
+ .footer p {
+        margin: 1px 0; /* Atur margin atas dan bawah menjadi 5px */
+    }
+ .footer {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    /* Warna latar belakang footer */  
+    padding: 20px;  
+    color: white;  
+}  
+  
+.footer-content {  
+    flex: 1;  
+}  
+  
+.anime-character  {  
+  
+  position: absolute;
+  right: 0;
+  top: -186px;
+}  
+.anime-character img{
+  width: 182px;
+  
+  
+}
+.welcome-talk {
+    /* From https://css.glass */
+    background: rgba(147, 129, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.1px);
+    -webkit-backdrop-filter: blur(13.1px);
+    border: 1px solid rgba(147, 129, 255, 0.3);
+    color: #fff; /* Warna teks */  
+    text-align: center; /* Memusatkan teks */  
+    border-radius: 5px; /* Sudut melengkung */  
+    font-size: 15px;
+    position: absolute;
+    left: -170px;
+    bottom: 121px;
+    padding: 5px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4); /* Bayangan luar */  
+     
+}
+  
+.welcome-talk {  
+    display: inline-block; /* Agar animasi terlihat lebih baik */  
+    overflow: hidden; /* Sembunyikan teks yang belum muncul */  
+    white-space: nowrap; /* Mencegah teks membungkus */  
+    border-right: 4px solid rgba(255, 255, 255, 0.75); /* Garis di sebelah kanan */  
+    animation: blink-caret 0.75s step-end infinite; /* Animasi kedip */  
+}  
+  
+@keyframes blink-caret {  
+    from, to { border-color: transparent; }  
+    50% { border-color: rgba(255, 255, 255, 0.75); }  
+}  
+
+
